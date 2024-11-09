@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: "Roboto", serif;
+}
+
+.head {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+.list-item{
+    margin-top: 4px;
+    font-size: 15px;
+}
+.header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFDC40;
+    height: 28px;
+    width: 100%;
+}
+
+.main {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    width: 240px;
+}
+input:focus{
+    outline: none;
+}
+.text{
+    margin-bottom: 8px;
+    width: 300px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+ol{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    grid-template-areas: 
+    'li img';
+}
+
+.x-gray {
+    margin-right: 22px;
+}
+
+.x-purple {
+    display: flex;
+    margin-right: 22px;
+    display: none;
+}
+
+.inp {
+    display: flex;
+    align-self: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    width: 300px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+
+.plus {
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.a-z {
+    margin-top: 16px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+.a-zblack {
+    margin-top: 16px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+.z-a {
+    margin-top: 16px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+.z-ablack {
+    margin-top: 16px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+
+.disnone {
+    display: none;
+}
