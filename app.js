@@ -147,6 +147,12 @@ aZ2.addEventListener("click", () => {
     aZ3.classList.toggle("disnone");
 });
 
+aZ3.addEventListener("click", () => {
+    sortListAZ();
+    aZ2.classList.toggle("disnone");
+    aZ4.classList.toggle("disnone");
+});
+
 function sortListZA() {
     let items = Array.from(orderlist.querySelectorAll(".list-item"));
     items.sort((a, b) => b.textContent.localeCompare(a.textContent));
@@ -163,4 +169,10 @@ aZ4.addEventListener("click", () => {
     sortListZA();
     aZ1.classList.toggle("disnone");
     aZ3.classList.toggle("disnone");
+});
+
+aZ1.addEventListener("click", () => {
+    sortListZA();
+    aZ2.classList.toggle("disnone");
+    aZ4.classList.toggle("disnone");
 });
