@@ -72,6 +72,13 @@ inp.addEventListener("keydown", (e) => {
                     textDiv.classList.add("disnone");
                 }
             });
+            imgXGray.addEventListener("touchstart", () => {
+                orderlist.removeChild(listItem);
+                imgXGray.remove();
+                if (orderlist.children.length === 0) {
+                    textDiv.classList.add("disnone");
+                }
+            });
 
             inp.value = "";
 
@@ -118,7 +125,13 @@ insert.addEventListener("click",()=>{
                     textDiv.classList.add("disnone");
                 }
             });
-
+            imgXGray.addEventListener("touchstart", () => {
+                orderlist.removeChild(listItem);
+                imgXGray.remove();
+                if (orderlist.children.length === 0) {
+                    textDiv.classList.add("disnone");
+                }
+            });
             inp.value = "";
 
             textDiv.classList.remove("disnone");
@@ -163,13 +176,13 @@ aZ4.addEventListener("click", () => {
     aZ3.classList.toggle("disnone");
 });
 
-aZ1.addEventListener("click", () => {
+aZ1.addEventListener("touchstart", () => {
     sortListAZ();
     aZ1.classList.toggle("disnone");
     aZ3.classList.toggle("disnone");
 });
 
-aZ3.addEventListener("click", () => {
+aZ3.addEventListener("touchstart", () => {
     sortListZA();
     aZ1.classList.toggle("disnone");
     aZ3.classList.toggle("disnone");
