@@ -3,7 +3,6 @@
 * {
     font-family: "Roboto", serif;
 }
-
 .head {
     font-size: 26px;
     font-weight: 800;
@@ -18,15 +17,15 @@ ol img{
     margin-top: 6px;
 }
 .header {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius:8px;
     background-color: #FFDC40;
     height: 28px;
     width: 100%;
 }
 
 .main {
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     border-radius: 10px;
     width: 350px;
     display: flex;

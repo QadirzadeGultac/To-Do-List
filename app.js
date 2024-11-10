@@ -133,7 +133,6 @@ function sortListAZ() {
     items.sort((a, b) => a.textContent.localeCompare(b.textContent));
     items.forEach(item => {
         let deleteButton = item.nextSibling;
-    
         orderlist.removeChild(item);
         orderlist.removeChild(deleteButton);
         orderlist.appendChild(item);
@@ -159,6 +158,18 @@ function sortListZA() {
     });
 }
 aZ4.addEventListener("click", () => {
+    sortListZA();
+    aZ1.classList.toggle("disnone");
+    aZ3.classList.toggle("disnone");
+});
+
+aZ1.addEventListener("click", () => {
+    sortListAZ();
+    aZ1.classList.toggle("disnone");
+    aZ3.classList.toggle("disnone");
+});
+
+aZ3.addEventListener("click", () => {
     sortListZA();
     aZ1.classList.toggle("disnone");
     aZ3.classList.toggle("disnone");
