@@ -11,8 +11,11 @@
     margin-top: 13px;
 }
 .list-item{
-    margin-top: 4px;
+    margin-top: 5.5px;
     font-size: 15px;
+}
+ol img{
+    margin-top: 6px;
 }
 .header {
     border-top-left-radius: 10px;
