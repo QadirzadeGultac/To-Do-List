@@ -44,7 +44,12 @@ imgXPurple.addEventListener("click", () => {
     inp.value = "";
 });
 
+imgXGray.addEventListener("touchstart", () => {
+    inp.value = "";
+});
+
 //Yazilan deyerleri liste elave etmek
+
 let textDiv = document.querySelector(".list");
 let inpdiv = document.querySelector(".inp");
 let orderlist = document.querySelector("ol");
@@ -140,7 +145,10 @@ insert.addEventListener("click",()=>{
         }
 })
 
-// a-z ye siralama
+
+
+// a-z ye ve z-a ya siralama
+
 function sortListAZ() {
     let items = Array.from(orderlist.querySelectorAll(".list-item"));
     items.sort((a, b) => a.textContent.localeCompare(b.textContent));
@@ -152,7 +160,6 @@ function sortListAZ() {
         orderlist.appendChild(deleteButton);
     });
 }
-
 aZ2.addEventListener("click", () => {
     sortListAZ();
     aZ1.classList.toggle("disnone");
