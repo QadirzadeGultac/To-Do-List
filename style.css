@@ -49,6 +49,7 @@ ol img{
 }
 
 input {
+    margin-left: 5px;
     border: none;
     border-radius: 10px;
     display: flex;
