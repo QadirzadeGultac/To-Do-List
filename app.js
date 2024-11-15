@@ -131,7 +131,7 @@ insert.addEventListener("click",()=>{
 
 })
 // a-z ye ve z-a ya siralama
-function sortListAZ() {
+function sortListAZ(){
     let items = Array.from(orderlist.querySelectorAll(".list-item"));
     items.sort((a, b) => a.textContent.localeCompare(b.textContent));
     items.forEach(item => {
