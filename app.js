@@ -108,6 +108,7 @@ insert.addEventListener("click",()=>{
                 imgXGray2.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
+                    inpdiv.classList.toggle("disnone");
                 }
             });
             imgXGray2.addEventListener("touchstart", () => {
@@ -115,6 +116,7 @@ insert.addEventListener("click",()=>{
                 imgXGray2.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
+                    inpdiv.classList.toggle("disnone");
                 }
 
             });
