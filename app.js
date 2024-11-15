@@ -64,6 +64,7 @@ inp.addEventListener("keydown", (e) => {
                 imgXGray.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
+                    inpdiv.classList.toggle("disnone");
                 }
             });
             imgXGray.addEventListener("touchstart", () => {
