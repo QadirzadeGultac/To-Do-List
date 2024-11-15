@@ -64,7 +64,7 @@ inp.addEventListener("keydown", (e) => {
                 imgXGray.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
-                    inpdiv.classList.toggle("disnone");
+                    inpdiv.classList.remove("disnone");
                 }
             });
             imgXGray.addEventListener("touchstart", () => {
@@ -72,6 +72,7 @@ inp.addEventListener("keydown", (e) => {
                 imgXGray.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
+                    inpdiv.classList.remove("disnone");
                 }
             });
 
@@ -109,7 +110,7 @@ insert.addEventListener("click",()=>{
                 imgXGray2.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
-                    inpdiv.classList.toggle("disnone");
+                    inpdiv.classList.remove("disnone");
                 }
             });
             imgXGray2.addEventListener("touchstart", () => {
@@ -117,7 +118,7 @@ insert.addEventListener("click",()=>{
                 imgXGray2.remove();
                 if (orderlist.children.length === 0) {
                     textDiv.classList.add("disnone");
-                    inpdiv.classList.toggle("disnone");
+                    inpdiv.classList.remove("disnone");
                 }
 
             });
