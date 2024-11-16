@@ -84,7 +84,7 @@ inp.addEventListener("keydown", (e) => {
         }
     }
 });
-//plus ile inputun gorunub yeni metn eleve edilmesi
+//plus ile inputun gorunub yeni metn eleve edilmes
 let insert = document.querySelector(".plus");
 insert.addEventListener("click",()=>{
     imgXPurple.addEventListener("click", () => {
